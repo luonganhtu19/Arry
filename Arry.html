@@ -2,33 +2,51 @@
 <html>
 
 <head>
-    <meta charset=utf-8 />
+    <meta charset=utf-8/>
     <title>JS Bin</title>
-<!--    <style>-->
-<!--        body {padding-top:50px}-->
-<!--    </style>-->
+    <!--    <style>-->
+    <!--        body {padding-top:50px}-->
+    <!--    </style>-->
 
 </head>
 
 <body>
 
-    <fieldset style="display: inline-block">
-    <legend>Unit1: </legend>
-<input type="text" id="txtValue"/>
-<input type="button" id="btnAdd" value="Add" onclick="add_element_to_array();"/>
-<input type="button" id="btnDisplay" value="Display" onclick="dis_play();"/>
-<div id="result"></div>
-    </fieldset>
+<fieldset style="display: inline-block">
+    <legend>Unit1:</legend>
+    <input type="text" id="txtValue"/>
+    <input type="button" id="btnAdd" value="Add" onclick="add_element_to_array();"/>
+    <input type="button" id="btnDisplay" value="Display" onclick="dis_play();"/>
+    <div id="result"></div>
+</fieldset>
 
 <fieldset style="display: inline-block">
     <legend>Unit 2</legend>
     <input type="number" id="input">
-    <input type="button"  value="Add" onclick="add_element_to_array()">
+    <input type="button" value="Add" onclick="add_element_to_array()">
     <input type="button" value="Reverse" onclick="rev()">
     <p id="out">Arry: </p>
     <p id="arrRs"> Result</p>
 </fieldset>
 
+<fieldset style="display: inline-block">
+    <legend>Unit 3-Sreach value</legend>
+    <input type="text" id="input3">
+    <input type="text" id="sreach">
+    <input type="button" value="Add" onclick="add_element_to_array()">
+    <input type="button" value="Search" onclick="search()">
+    <p id="out3">Arry: </p>
+    <p id="arrSreach3"> Result</p>
+</fieldset>
+
+<fieldset style="display: inline-block">
+    <legend>Unit 4-Max value</legend>
+    <input type="number" id="input4">
+    <input type="button" value="Add"      onclick="add_element_to_array()">
+    <input type="button" value="MaxValue" onclick="max1()">
+    <p id="out4">Arry: </p>
+    <p id="arrMax"> Result</p>
+</fieldset>
 </body>
 <script src="chekc.js"></script>
 </html>
