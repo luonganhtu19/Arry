@@ -55,12 +55,12 @@ function search() {
         //alert(typeof arr[0]+": "+ typeof se)
         //alert(se == arr[0]);
         if (se == arr1[i]) {
-            document.getElementById("arrSreach3").innerHTML = "Value " + arr1[i] + " found at " + i;
+            // document.getElementById("arrSreach3").innerHTML = "Value " + arr1[i] + " found at " + i;
+            alert("1");
             break;
-        } else {
-            document.getElementById("arrSreach3").innerHTML = "No value"
         }
     }
+    alert("0");
     //alert(arr)
 }
 
